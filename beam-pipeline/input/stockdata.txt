@@ -1,0 +1,5 @@
+apple 150.50
+google 2800.75
+amazon 3400.20
+microsoft 305.25
+tesla 870.10
