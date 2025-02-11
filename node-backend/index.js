@@ -48,7 +48,7 @@ async function initDb() {
     await pool.query(`
         CREATE TABLE IF NOT EXISTS stocks(
         id SERIAL PRIMARY KEY,
-        symbol VARCHAR(20),
+        symbol VARCHAR(50),
         price NUMERIC,
         timestamp TIMESTAMP
         );
